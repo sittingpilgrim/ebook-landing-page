@@ -2,7 +2,7 @@
 	import { loadStripe } from '@stripe/stripe-js';
 	import { PUBLIC_STRIPE_KEY } from '$env/static/public';
 	import { goto } from '$app/navigation';
-    
+
 	let { children, ...props } = $props();
 
 	async function onclick() {
