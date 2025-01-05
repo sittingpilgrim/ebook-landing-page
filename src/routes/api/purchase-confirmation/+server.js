@@ -23,7 +23,7 @@ export async function POST({ request }) {
         html: `<p>Thank you for your purchase, ${customerName}!</p>`,
         attachments: [
             {
-                content: p,
+                content: pdfBase64,
                 filename: 'sample.pdf',
                 type: 'application/pdf',
                 disposition: 'attachment'
