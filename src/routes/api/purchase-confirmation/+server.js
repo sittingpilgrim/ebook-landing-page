@@ -18,7 +18,7 @@ export async function POST({ request }) {
 
     const msg = {
         to: customerEmail,
-        from: 'sittingpilgrim@gmail.com',
+        from: 'sittingpilgrim@outlook.com',
         subject: 'Purchase Confirmation',
         html: `<p>Thank you for your purchase, ${customerName}!</p>`,
         attachments: [
